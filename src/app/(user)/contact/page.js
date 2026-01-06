@@ -1,5 +1,7 @@
-function Contact() {
-  return <h1>Contact</h1>;
+function Card({ title }) {
+  return <h2>{title}</h2>;
 }
 
-export default Contact;
+export default function App() {
+  return <Card title="React Card" />;
+}
